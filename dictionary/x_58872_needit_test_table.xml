@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="2703bbe9835a4210515be160ceaad320" label="test_table" max_length="40" name="x_58872_needit_test_table" type="collection">
+        <element label="mot de pass" max_length="255" name="mot_de_pass" type="password2"/>
+        <element label="nom" max_length="40" name="nom" type="string"/>
+        <element choice="1" label="prenom" max_length="40" name="prenom" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="bnvvh" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="trois" sequence="1" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>
